@@ -354,7 +354,7 @@ func typeinit() {
 	array_array = int(Rnd(0, int64(Widthptr)))
 	array_nel = int(Rnd(int64(array_array)+int64(Widthptr), int64(Widthptr)))
 	array_cap = int(Rnd(int64(array_nel)+int64(Widthptr), int64(Widthptr)))
-	sizeof_Array = int(Rnd(int64(array_cap)+int64(Widthptr), int64(Widthptr)))
+	sizeof_Slice = int(Rnd(int64(array_cap)+int64(Widthptr), int64(Widthptr)))
 
 	// string is same as slice wo the cap
 	sizeof_String = int(Rnd(int64(array_nel)+int64(Widthptr), int64(Widthptr)))

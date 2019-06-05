@@ -80,7 +80,7 @@ var array_nel int // runtime offsetof(Array,nel) - same for String
 
 var array_cap int // runtime offsetof(Array,cap)
 
-var sizeof_Array int // runtime sizeof(Array)
+var sizeof_Slice int // runtime sizeof(Array)
 
 // note this is the runtime representation
 // of the compilers strings.
